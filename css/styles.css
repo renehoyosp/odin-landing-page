@@ -1,0 +1,14 @@
+.body-content {
+    border: 1px solid black;
+}
+
+.header-logo-links {
+    display: flex;
+    background-color: #1f2937;
+}
+
+.header-logo-container {
+    display: flex;
+    font-size: 24px;
+    color: #f9faf8;
+}
