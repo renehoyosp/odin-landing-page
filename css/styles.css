@@ -8,11 +8,11 @@ body {
     border: 1px solid black;
 }
 
-/*  ----------HEADER STLYING---------- */
+/*  ----------HEADER STYLING---------- */
 
 .full-header-container {
     background-color: #1f2937;
-    padding: 10px 200px;
+    padding: 0px 120px;
 }
 
 /* -- Header logo and links -- */
@@ -48,7 +48,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     gap: 50px;
-    margin: 50px 0px;
+    margin: 100px 0px;
 }
 
 /* Hero text style */
@@ -80,12 +80,15 @@ body {
     border-radius: 8px;
 }
 
+/* Hero Image Stlying */
 .hero-image {
     display: flex;
+    width: 1080px;
     background-color: #6d747d;
     justify-content: center;
     align-items: center;
     color: #E5E7EB;
-    flex-grow: 1;
+    flex-basis: auto;
 }
 
+/*  ----------HEADER STYLING---------- */
