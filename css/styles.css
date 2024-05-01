@@ -21,7 +21,8 @@ body {
     font-weight: 900;
 }
 
-.header-logo-links {
+.logo-and-links-container{
     display: flex;
+
 }
 
