@@ -6,15 +6,16 @@ body {
     border: 1px solid black;
 }
 
-/* HEADER STLYING */
+/*  ----------HEADER STLYING---------- */
 
 .full-header-container {
     background-color: #1f2937;
 }
 
+/* Header logo and links */
 .logo-and-links-container{
     display: flex;
-
+    justify-content: space-between;
 }
 
 .header-logo-container {
@@ -35,5 +36,30 @@ body {
     text-decoration: none;
     list-style-type: none;
     gap: 20px;
+}
+
+
+/* Hero text and image */
+.hero-text-and-image-container {
+
+}
+
+.hero-text-container {
+
+}
+
+.hero-text-container h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-text-container p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-text-container button {
+    color: #3882f6;
 }
 
