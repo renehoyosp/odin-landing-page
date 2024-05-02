@@ -1,11 +1,15 @@
 body {
     font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 .body-content {
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+/*     border: 1px solid black; */
 }
 
 /*  ----------HEADER STYLING---------- */
@@ -211,3 +215,14 @@ body {
     border-radius: 8px;
 }
 
+/*  ----------SECTION 4 STYLING---------- */
+
+/*  ------------FOOTER STYLING----------- */
+
+.footer {
+    text-align: center;
+    padding: 40px 0px;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    font-size: 24px;
+}
