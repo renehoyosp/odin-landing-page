@@ -92,3 +92,13 @@ body {
 }
 
 /*  ----------HEADER STYLING---------- */
+
+/*  ----------SECTION 2 STYLING---------- */
+
+.full-section2-container {
+    display: flex;
+}
+
+.full-section2-container.text {
+    
+}
