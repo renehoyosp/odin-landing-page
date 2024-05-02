@@ -188,3 +188,15 @@ body {
     border: none;
     border-radius: 7px;
 }
+
+.call-to-action-container .text {
+    font-size: 24px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+.call-to-action-container .subtext {
+    font-size: 16px;
+    color: #E5E7EB;
+}
+
