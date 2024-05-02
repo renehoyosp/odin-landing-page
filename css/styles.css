@@ -98,7 +98,7 @@ body {
 .full-section2-container {
     display: flex;
     flex-direction: column;
-    margin: 50px 0;
+    margin: 30px 0px 90px;
     gap: 42px;
     justify-content: center;
     align-items: center;
@@ -148,12 +148,11 @@ body {
 
 .third-section-container {
     display: flex;
-    flex-direction: column;
     background-color: #E5E7EB;
-    padding: 70px 150px;
-    justify-content: center;
-    align-items: center;
+    padding: 70px 270px;
+    justify-content: flex-end;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 .third-section-container .quote {
@@ -161,4 +160,9 @@ body {
     font-style: italic;
     font-weight: 300; 
     color: #1f2937;
+}
+
+.third-section-container .author {
+    font-size: 20px;
+    font-weight: 700;
 }
