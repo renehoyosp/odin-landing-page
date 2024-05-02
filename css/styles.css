@@ -141,3 +141,24 @@ body {
     text-align: center;
     color: #6d747d;
 }
+
+/*  ----------SECTION 2 STYLING---------- */
+
+/*  ----------SECTION 3 STYLING---------- */
+
+.third-section-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 70px 150px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.third-section-container .quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300; 
+    color: #1f2937;
+}
