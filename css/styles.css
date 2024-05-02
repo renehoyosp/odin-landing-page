@@ -98,7 +98,10 @@ body {
 .full-section2-container {
     display: flex;
     flex-direction: column;
-    margin: 100px 0;
+    margin: 50px 0;
+    gap: 42px;
+    justify-content: center;
+    align-items: center;
 }
 
 .full-section2-container .text {
@@ -112,4 +115,20 @@ body {
 .images-container-section2 {
     display: flex;
     
+}
+
+.image-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.images-section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
 }
